@@ -1,0 +1,48 @@
+body {
+     margin: 50px;
+      font-family: Arial, sans-serif; background: #fff;
+}
+
+.page {
+     min-height: 100vh;
+      display: grid;
+       place-items: center; 
+    }
+
+.card { width: 420px;
+     padding: 32px;
+      background: #f2f2f2; 
+    }
+
+.card__title {
+     margin: 0 0 16px;
+      font-size: 32px;
+}
+.card__text {
+     margin: 0 0 24px;
+      line-height: 1.5; 
+}
+
+.card__link {
+     color: #005bbb;
+      text-decoration: none;
+}
+
+.card__link:hover {
+    color:#729dca;
+    text-decoration:underline;
+}
+
+.card__link:focus-visible {
+    outline:3px solid #ff9900;
+    outline-offset: 2px;
+}
+
+.card-link:focus {
+    outline:none;
+}
+
+.card__label { margin: 0 0 8px;
+     font-size: 14px;
+      text-transform: uppercase; 
+}
